@@ -26,8 +26,9 @@ last, run `watch` script to start watch mode.
 npm run watch
 ```
 
-now, when you save [script.ts](./script.ts) file, the source code is compiled and uploaded to logic processor after few seconds with mlogjs-watcher mod.
+now, when you save [script.ts](./script.ts) file, the source code is compiled and uploaded to logic processor after few seconds with [mlogjs-watcher mod](https://github.com/Sharlottes/mlogJsWatcher).
 
 ## References
 
-[MlogJS Doc](https://mlogjs.github.io/mlogjs/)
+* [MlogJS Doc](https://mlogjs.github.io/mlogjs/)
+* [MlogJS Watcher](https://github.com/Sharlottes/mlogJsWatcher)
