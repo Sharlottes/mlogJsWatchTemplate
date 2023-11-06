@@ -1,0 +1,12 @@
+{
+  "name": "mlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch script.ts watcher.js",
+    "dev": "mlogjs script.ts out.mlog"
+  },
+  "author": "Sharlottes",
+  "license": "MIT"
+}
