@@ -1,2 +1,11 @@
 lib
+assets
 out.mlog
+node_modules
+
+scripts/*
+!scripts/tsconfig.json
+!scripts/watcher.js
+
+src/*
+!src/tsconfig.json

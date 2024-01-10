@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon --watch script.ts watcher.js",
-    "dev": "mlogjs script.ts out.mlog"
+    "watch": "nodemon --watch ./src/script.ts ./scripts/watcher.js",
+    "dev": "mlogjs ./src/script.ts out.mlog"
   },
   "author": "Sharlottes",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.8"
+  }
 }
